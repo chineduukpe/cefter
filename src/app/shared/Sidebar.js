@@ -202,7 +202,7 @@ class Sidebar extends Component {
             <span className="nav-link"><Trans>Navigation</Trans></span>
           </li>
           {
-            menuList.farmer.map((menuItem, index) => {
+            menuList.seller.map((menuItem, index) => {
               if (menuItem.children) {
                 return (
                   <li key={index} className={this.isPathActive(menuItem.link) ? 'nav-item menu-items active' : 'nav-item menu-items'}>
